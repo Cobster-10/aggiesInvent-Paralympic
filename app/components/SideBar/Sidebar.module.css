@@ -1,0 +1,10 @@
+
+
+.sidebar {
+    width: 25%; /* Base width: 1/4 of container */
+    max-width: 300px; /* Maximum width: 100px */
+    /* Add media queries for responsive adjustments */
+    @media (max-width: 768px) {
+      width: 50%; /* Adjust width for smaller screens (optional) */
+    }
+  }
